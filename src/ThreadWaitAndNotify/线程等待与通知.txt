@@ -1,0 +1,28 @@
+1.wait()函数
+    当一个线程调用一个共享变量的wait()方法时，该调用线程会被阻塞挂起，直到发生下面几件事情之一才返回：
+        1.其他线程调用了该共享对象的notify()或者notifyAll()方法
+        2.其他线程调用了该线程的interrupt()方法，该线程抛出interruptedException异常返回
+
+   另外，如果调用了wait()方法的线程没有事先获取该对象的监视器锁，则调用wait()方法时调用线程会抛出IIIegalMonitorStateExcption异常。
+
+   那么线程该如何才能获取一个共享变量的监视器锁？
+        1.执行synchronized同步代码块时，使用该共享变量作为参数
+            synchronized (共享变量) {
+                //doSomething
+            }
+        2.调用该共享变量的方法，并且该方法使用了synchronized修饰
+
+            synchronized void add(int a , int b){
+                //doSomething
+            }
+   另外需要注意的是，一个线程可以从挂起状态变为可以运行状态（也就是被唤醒）,即使该线程没有被其他线程调用notify()、notifyAll()方法
+   进行通知，或者被中断， 或者等待超时，这就是所谓的虚假唤醒。
+
+   为了预防虚假唤醒，可以不断地测试该线程被唤醒地条件是否满足，不满足则继续等待，也就是说在一个循环中调用wait()方法进行防范。退出循
+   环地条件是满足了唤醒该线程地条件。
+
+            synchronized (obj){
+                while( 条件不满足){
+                    obj.wait；
+                }
+            }
