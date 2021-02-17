@@ -1,0 +1,13 @@
+回调(callback)是一种常见的程序设计模式。在这种模式下，可以指出某个特定事件发生时应该采取的动作。例如可以指出在按下鼠标或者选择某个
+特定菜单时应该采取什么行动。
+这里简单的以定时输出为例。
+
+java.swing包里有一个Timer类，可以使用它在到达给定时间时发出通告。
+Timer t = new Timer(1000,listener）
+
+它接受两个参数，第一个参数指通告发出的事件间隔，单位为毫秒；第二个参数是一个实现了ActionListener接口的对象，定时器通过它知道所需要
+做的事情。
+     public interface ActionListener{
+        void actionPerformed(ActionEvent event);
+     }
+     到达指定事件，就执行actionPerformed方法。

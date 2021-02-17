@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab5188f5-80a2-4120-acad-33d9682687a6" name="Default Changelist" comment="" />
+    <list default="true" id="9e5d896f-c879-4da4-9593-d82aad099f9e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +15,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1oY3PUzajbNc4Fs4XjbVZCfExhl" />
+  <component name="ProjectId" id="1obL5b7xCWgGwo1eQPWvIngsJlp" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -42,13 +42,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.YieldTest">
-    <configuration name="CallerTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.CallerTask" />
-      <module name="Threads" />
+  <component name="RunManager" selected="Application.AnonymousInnerClass">
+    <configuration name="AnonymousInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Innerclass.AnonymousInnerClass" />
+      <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.*" />
+          <option name="PATTERN" value="Innerclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadLockTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DeadThreads.DeadLockTest1" />
-      <module name="Threads" />
+    <configuration name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectClone.CloneTest" />
+      <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DeadThreads.*" />
+          <option name="PATTERN" value="ObjectClone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeadLockTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DeadThreads.DeadLockTest2" />
-      <module name="Threads" />
+    <configuration name="InnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Innerclass.InnerClassTest" />
+      <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DeadThreads.*" />
+          <option name="PATTERN" value="Innerclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,25 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunableTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.RunableTask" />
-      <module name="Threads" />
+    <configuration name="TimerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Callback_定时器.TimerTest" />
+      <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YieldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread_yield.YieldTest" />
-      <module name="Threads" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thread_yield.*" />
+          <option name="PATTERN" value="Callback_定时器.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +97,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.YieldTest" />
-        <item itemvalue="Application.DeadLockTest1" />
-        <item itemvalue="Application.DeadLockTest2" />
-        <item itemvalue="Application.CallerTask" />
-        <item itemvalue="Application.RunableTask" />
+        <item itemvalue="Application.AnonymousInnerClass" />
+        <item itemvalue="Application.InnerClassTest" />
+        <item itemvalue="Application.TimerTest" />
+        <item itemvalue="Application.CloneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -123,12 +109,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ab5188f5-80a2-4120-acad-33d9682687a6" name="Default Changelist" comment="" />
-      <created>1613449672332</created>
+      <changelist id="9e5d896f-c879-4da4-9593-d82aad099f9e" name="Default Changelist" comment="" />
+      <created>1613550160753</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1613449672332</updated>
-      <workItem from="1613449676347" duration="8526000" />
+      <updated>1613550160753</updated>
+      <workItem from="1613550164582" duration="8213000" />
     </task>
     <servers />
   </component>
